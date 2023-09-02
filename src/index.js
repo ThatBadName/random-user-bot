@@ -22,10 +22,10 @@ Handler.main.DiscordCommandHandler(client,  {
     helpCommand: false,
     automaticRepair: false
   },
-  ownerIds: ["804265795835265034"],
+  ownerIds: [],
   // Put any ids of users that you want to be able to run ownerOnly: true commands
 
-  ownerOnlyMessage: 'fuck off isaac',
+  ownerOnlyMessage: '',
 })
 
 client.random = null

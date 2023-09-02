@@ -39,7 +39,7 @@ module.exports = {
     let member = interaction.guild.members.cache.get(user)
 
     member.send({content: interaction.options.getString('msg')})
-    interaction.reply({content: trueHide ? `Dmed a random idiot` : `And I choose: <@${user}>`})
+    interaction.reply({content: trueHide ? `done ig` : `And I choose: <@${user}>`})
     if (hide) client.random = member
   }
 }

@@ -16,6 +16,6 @@ module.exports = {
     let member = client.random
 
     if (!member) return interaction.reply({content:'no.'})
-    interaction.reply({content: `why the fuck are you making me do work. anyway the user is ${member}`})
+    interaction.reply({content: `${member}`})
   }
 }
